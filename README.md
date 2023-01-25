@@ -21,11 +21,10 @@ To write a python program to implement multivariate linear regression and predic
 <br>Predict the CO2 emission of a car where the weight is 2300kg, and the volume is 1300cm cube.
 
 ## Program:
-```
-'''
-DEVELOPED BY:KRISHNARAJ D
-REGISTER NO:22005130
-'''
+```python
+#DEVELOPED BY:KRISHNARAJ D
+#REGISTER NO:22005130
+
 import pandas as pd
 from sklearn import linear_model
 df=pd.read_csv("car..csv")
